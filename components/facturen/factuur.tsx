@@ -1,5 +1,5 @@
-import getCurrentUser from "../../actions/getCurrentUser";
-import getInvoices, { IInvoicesParams } from "../../actions/getInvoices";
+import getCurrentUser from "../../app/actions/getCurrentUser"; 
+import getInvoices, { IInvoicesParams } from "../../app/actions/getInvoices";
 
 import InvoiceCard from "./InvoiceCard";
 import EmptyState from "../../components/shared/EmptyState"
